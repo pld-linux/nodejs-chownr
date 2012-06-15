@@ -7,6 +7,7 @@ Group:		Libraries
 URL:		https://github.com/isaacs/chownr
 Source0:	http://registry.npmjs.org/chownr/-/chownr-%{version}.tgz
 # Source0-md5:	fdd96f06b67ab23f7523ac2e423feb96
+BuildRequires:	rpmbuild(macros) >= 1.634
 Requires:	nodejs
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
