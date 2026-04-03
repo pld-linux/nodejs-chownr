@@ -1,7 +1,7 @@
 Summary:	Like `chown -R`
 Name:		nodejs-chownr
 Version:	0.0.1
-Release:	1
+Release:	2
 License:	MIT
 Group:		Development/Libraries
 URL:		https://github.com/isaacs/chownr
